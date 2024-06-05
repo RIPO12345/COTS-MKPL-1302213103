@@ -7,6 +7,7 @@ public class CotsMkpl1302213103 {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
 
+        // Input dan proses pertama
         System.out.println("Enter first number: ");
         int num1 = scanner.nextInt();
         
@@ -36,5 +37,36 @@ public class CotsMkpl1302213103 {
         }
         
         System.out.println("Result: " + result);
+
+        // Input dan proses kedua (duplikasi)
+        System.out.println("Enter first number: ");
+        int num3 = scanner.nextInt();
+        
+        System.out.println("Enter second number: ");
+        int num4 = scanner.nextInt();
+        
+        System.out.println("Choose operation (+, -, *, /): ");
+        String operation2 = scanner.next();
+        
+        int result2;
+        switch (operation2) {
+            case "+":
+                result2 = calculator.add(num3, num4);
+                break;
+            case "-":
+                result2 = calculator.subtract(num3, num4);
+                break;
+            case "*":
+                result2 = calculator.multiply(num3, num4);
+                break;
+            case "/":
+                result2 = calculator.divide(num3, num4);
+                break;
+            default:
+                System.out.println("Invalid operation");
+                return;
+        }
+        
+        System.out.println("Result: " + result2);
     }
 }
