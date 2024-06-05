@@ -1,4 +1,4 @@
-package com.mycompany.cots.mkpl;
+package com.mycompany.cots.mkpl; 
 
 import java.util.Scanner;
 
