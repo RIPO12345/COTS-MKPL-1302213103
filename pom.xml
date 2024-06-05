@@ -19,7 +19,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/RIPO12345/nyoba_cots</url>
+            <url>https://maven.pkg.github.com/RIPO12345/COTS-MKPL-1302213103</url>
         </repository>
     </distributionManagement>
 
